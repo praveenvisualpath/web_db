@@ -1,0 +1,10 @@
+[webservers]
+east ansible_host=192.168.56.25
+[dbservers]
+west ansible_host=192.168.56.24
+[lampservers:children]
+webservers
+dbservers
+
+[lampservers:vars]
+ansible_user=root
