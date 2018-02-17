@@ -1,5 +1,5 @@
 [webservers]
-east ansible_host=192.168.56.25
+east ansible_host=192.16
 [dbservers]
 west ansible_host=192.168.56.24
 [lampservers:children]
